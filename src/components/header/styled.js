@@ -4,7 +4,9 @@ export const Wrapper = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 4px;
+  padding: 20px;
+  background: #003566;
+  border-radius: 10px;
 
   input {
     border: 1px solid #ccc;
@@ -16,19 +18,21 @@ export const Wrapper = styled.div`
   }
 
   button {
-    background-color: #225ed8;
+
+    background-color: #FFC300;
     padding: 8px 16px;
     margin: 0 16px;
     border-radius: 8px;
+    transition: 0.5s ease;
 
     &:hover {
-      background-color: #2c5282;
+      background-color: #FFD60A;
       box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
     }
 
     span {
       font-weight: bold;
-      color: #ffff;
+      color: #001D3D;
     }
   }
 `;

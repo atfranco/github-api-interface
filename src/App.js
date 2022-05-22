@@ -12,7 +12,7 @@ const App = () => {
       {githubState.hasUser ? (
         <>
           {githubState.loading ? (
-            <p>Loading</p>
+            <p>Buscando</p>
           ) : (
             <>
               <Profile />

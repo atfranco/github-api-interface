@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   align-items: flex-start;
+  padding: 20px;
+  margin-top: 20px;
 `;
 
 export const WrapperInfoUser = styled.div`
@@ -49,7 +51,7 @@ export const WrapperUserGeneric = styled.div`
 
   a {
     font-size: 18px;
-    color: blue;
+    color: #FFC300;
     font-weight: bold;
   }
 `;

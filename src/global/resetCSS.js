@@ -39,6 +39,8 @@ html {
 body {
   margin: 0;
   font-family: roboto,sans-serif;
+  color: white;
+  background: #001D3D;
 }
 
 /**
