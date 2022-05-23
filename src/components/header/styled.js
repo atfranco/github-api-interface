@@ -7,6 +7,8 @@ export const Wrapper = styled.div`
   padding: 20px;
   background: #003566;
   border-radius: 10px;
+  border: #FFC300 solid 1px;
+}
 
   input {
     border: 1px solid #ccc;
@@ -27,7 +29,7 @@ export const Wrapper = styled.div`
 
     &:hover {
       background-color: #FFD60A;
-      box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.5);
     }
 
     span {

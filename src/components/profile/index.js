@@ -12,7 +12,7 @@ const Profile = () => {
         <div>
           <h1>{githubState.user.name}</h1>
           <S.WrapperUserGeneric>
-            <h3>Username:</h3>
+            <h3>Usuário:</h3>
             <a
               href={githubState.user.html_url}
               target="_blank"
@@ -22,15 +22,15 @@ const Profile = () => {
             </a>
           </S.WrapperUserGeneric>
           <S.WrapperUserGeneric>
-            <h3>Company:</h3>
+            <h3>Empresa:</h3>
             <span>{githubState.user.company}</span>
           </S.WrapperUserGeneric>
           <S.WrapperUserGeneric>
-            <h3>Location:</h3>
+            <h3>Localização:</h3>
             <span>{githubState.user.location}</span>
           </S.WrapperUserGeneric>
           <S.WrapperUserGeneric>
-            <h3>Blog:</h3>
+            <h3>Site:</h3>
             <a href={githubState.user.blog} target="_blank" rel="noreferrer">
               {githubState.user.blog}
             </a>
@@ -38,11 +38,11 @@ const Profile = () => {
         </div>
         <S.WrapperStatusCount>
           <div>
-            <h4>Followers</h4>
+            <h4>Seguidores</h4>
             <span> {githubState.user.followers}</span>
           </div>
           <div>
-            <h4>Followings</h4>
+            <h4>Seguindo</h4>
             <span> {githubState.user.following}</span>
           </div>
           <div>

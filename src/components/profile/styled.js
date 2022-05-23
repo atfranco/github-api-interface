@@ -54,6 +54,11 @@ export const WrapperUserGeneric = styled.div`
     color: #FFC300;
     font-weight: bold;
   }
+  a:hover {
+    font-size: 18px;
+    color: #FFD60A;
+    font-weight: bold;
+  }
 `;
 
 export const WrapperImage = styled.img`

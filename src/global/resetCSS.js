@@ -41,6 +41,7 @@ body {
   font-family: roboto,sans-serif;
   color: white;
   background: #001D3D;
+  transition: 1s ease;
 }
 
 /**
@@ -48,7 +49,11 @@ body {
  */
 
 main {
-  display: block;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 /* Vertical rhythm */

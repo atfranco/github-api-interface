@@ -10,7 +10,6 @@ const Header = () => {
     if (!usernameForSearch) return;
     return getUser(usernameForSearch);
   };
-
   return (
     <header>
       <S.Wrapper>
